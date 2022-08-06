@@ -10,7 +10,7 @@
 
 module "dns-zone-brandenmartin-dot-com" {
   source  = "app.terraform.io/branden/dns-zone/hive"
-  version = "0.0.2"
+  version = "0.0.4"
 
   project_name = var.project_name
   domain       = "brandenmartin.com"
