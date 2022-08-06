@@ -41,6 +41,12 @@ module "dns-zone-brandenmartin-dot-com" {
       ttl     = "300"
       records = ["2dkcm6ecd.acme-challenge.ngrok-dns.com"]
       }, {
+      name    = "@"
+      type    = "TXT"
+      ttl     = "300"
+      records = ["MS=ms28693039"]
+    },
+    {
       name = "@"
       type = "MX"
       ttl  = "300"
